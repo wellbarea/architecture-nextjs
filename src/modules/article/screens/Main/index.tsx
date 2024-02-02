@@ -43,7 +43,7 @@ const ArticleScreen = () => {
         <GridItem w='100%'>
           <Input
             type="text"
-            placeholder='Exemplo tag ou nome do usuário: javascript, html...'
+            placeholder='Digite aqui...'
             ref={inputRef}
             value={search}
             onChange={handleInputChange}
